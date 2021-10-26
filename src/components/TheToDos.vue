@@ -57,6 +57,7 @@ export default {
   text-align: center;
   position: relative;
   cursor: pointer;
+  color:var(--font-color);
 }
 i {
   position: absolute;
@@ -67,8 +68,9 @@ i {
 }
 .legend {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-bottom: 1rem;
+  max-width: 40%;
 }
 .complete-box {
   display: inline-block;
@@ -84,7 +86,7 @@ i {
 }
 .is-complete {
   background: var(--todo-bg-color-complete);
-  color: var(--delete-btn);
+  color: var(--font-color-complete)
 }
 @media (max-width: 500px) {
   .todos {

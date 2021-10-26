@@ -26,10 +26,12 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 :root {
-  --main-bg-color: #fdfcdc;
-  --todo-bg-color: #f07167;
-  --todo-border:#fed9b7;
-  --todo-bg-color-complete: #e7b17e;
+  --main-bg-color: #edf2f4;
+  --todo-bg-color: #751424;
+  --font-color:#edf2f4;
+  --todo-border:#edf2f4;
+  --todo-bg-color-complete: #8d99ae;
+  --font-color-complete:black;
   --delete-btn: white;
 }
 body {
